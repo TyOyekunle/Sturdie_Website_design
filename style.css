@@ -165,14 +165,14 @@ flex-shrink: 0;
   margin-bottom: 0px;
 }
 .frame27_text1 p {
-  color: black;
-  font-size: 10px;
+  color: #000;
   font-family: Raleway;
-  font-weight: 500;
-  line-height: 21.09px;
-  word-wrap: break-word;
-
-  margin-top: -5px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140.625%;
+  margin-top: 3px;
+   
 }
 .highereducation_image {
   width: 147px;
@@ -195,13 +195,14 @@ flex-shrink: 0;
   margin-bottom: 0px;
 }
 .frame27_text2 p {
-  color: black;
-  font-size: 10px;
+  color: #000;
   font-family: Raleway;
-  font-weight: 500;
-  line-height: 21.09px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140.625%;
 
-  margin-top: -5px;
+  margin-top: 3px;
 }
 .pageunderconstruction_image {
   width: 245px;
@@ -229,12 +230,12 @@ flex-shrink: 0;
 .frame27_text3 p {
   color: #000;
   font-family: Raleway;
-  font-size: 10px;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 140.625%;
-  margin-top: -5px;
-
+    margin-top: 3px;
+  
 }
 
 /* beginning of section 3 */
