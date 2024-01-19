@@ -42,6 +42,28 @@ body {
   /* flex-shrink: 0; */
   margin-left: 132px;
 }
+.nav_links{
+ 
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 140.625%;
+margin: auto;
+
+}
+.nav_links li{
+ list-style: none;
+ align-items: center;
+ display: inline-block;
+
+}
+.nav_links li a{
+  text-decoration: none;
+ 
+  padding: 10px;
+  color: black;
+}
 
 .navbar button {
   width: 183px;
@@ -68,7 +90,11 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 flex-shrink: 0;
+cursor: pointer;
  
+}
+.navbar button:hover{
+filter: invert(10);
 }
 
 /* hero_section */
@@ -125,6 +151,10 @@ flex-shrink: 0;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.hero_section_left button:hover{
+  filter: invert(10);
 }
 
 .hero_section_right img {
@@ -166,13 +196,15 @@ flex-shrink: 0;
 }
 .frame27_text1 p {
   color: #000;
-  font-family: Raleway;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 140.625%;
-  margin-top: 3px;
-   
+font-family: Raleway;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 140.625%;
+margin-top: 3px;
+ 
+
+  
 }
 .highereducation_image {
   width: 147px;
@@ -229,13 +261,13 @@ flex-shrink: 0;
 }
 .frame27_text3 p {
   color: #000;
-  font-family: Raleway;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 140.625%;
-    margin-top: 3px;
-  
+font-family: Raleway;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 140.625%;
+  margin-top: 3px;
+
 }
 
 /* beginning of section 3 */
@@ -371,6 +403,10 @@ margin-left: 471.78px; */
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.frame34_right_text button:hover{
+  filter: invert(10)
 }
 
 /* beginning of section 4 */
@@ -479,6 +515,10 @@ beginning of section 5 */
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+  cursor: pointer;
+}
+.section5_left button:hover{
+  filter: invert(10)
 }
 
 .section5_right_image {
@@ -608,6 +648,7 @@ beginning of section 7 */
   margin-top: 100px;
 
   margin-left: 100px;
+  position: relative;
 }
 .section7_right h2 {
   color: #000;
@@ -647,11 +688,48 @@ beginning of section 7 */
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+  cursor: pointer;
+  }
+
+.section7_right_button2{
+  color: black;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.625%; /* 25.313px */
+  border-radius: 7px;
+  background: grey;
+  border: none;
+  display: flex;
+  width: 183px;
+  height: 50px;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
   
 
-  
- 
 }
+.section7_right button:hover{
+  filter: invert(10)
+}
+
+.section7_right_button2 i img{
+  width: 15px;
+  height: 15px;
+  
+  
+}
+
+
 /* end of section 7
 beginning of Footer */
 .footer {
